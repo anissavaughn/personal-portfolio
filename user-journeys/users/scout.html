@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scout - The Data Empress</title>
+    <title>Scouts - The Data Empress</title>
     <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
     <header class="header">
-        <div class="logo">The Data Empress</div>
+        <div class="logo" onclick="location.href='../../index.html'">the data empress</div>
     </header>
 
     <section class="content">
@@ -17,29 +17,29 @@
         <p>Fill out the form to be notified once this page is live!</p>
     </section>
 
-    <form action="https://fabform.io/f/Y-8ITbu" method="post">
-        <fieldset>
+    <form class="form" action="https://fabform.io/f/Y-8ITbu" method="post">
+        <fieldset class="fieldset">
             <legend></legend>
-
-            <label for="fname">Full Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
-
-            <label for="lname">Role / Title:</label><br>
-            <input type="text" id="role" name="role" placeholder="Your role / title" required><br><br>
-
-            <label for="org">Organization:</label><br>
-            <input type="text" id="org" name="org" placeholder="Your organization" required><br><br>
-
-            <label for="email">Email Address:</label><br>
-            <input type="text" id="email" name="email" placeholder="Your email address" required><br><br>
-
-            <label for="email">Inquiry:</label><br>
-            <input type="text" id="inquiry" name="inquiry" placeholder="Your inquiry" required><br><br>
-
-            <input type="submit" value="Notify Me">
+    
+            <label class="form-label" for="name">Full Name:</label>
+            <input class="form-input" type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+    
+            <label class="form-label" for="role">Role / Title:</label>
+            <input class="form-input" type="text" id="role" name="role" placeholder="Your role / title" required><br><br>
+    
+            <label class="form-label" for="org">Organization:</label>
+            <input class="form-input" type="text" id="org" name="org" placeholder="Your organization" required><br><br>
+    
+            <label class="form-label" for="email">Email Address:</label>
+            <input class="form-input" type="text" id="email" name="email" placeholder="Your email address" required><br><br>
+    
+            <label class="form-label" for="note">Note to Anissa:</label>
+            <textarea class="form-input" type="text" id="note" name="note" placeholder="Your personal note" rows="4" required></textarea><br><br>
+    
+            <input class="form-input" type="submit" value="Notify Me">
         </fieldset>
     </form>
-
+    
     <footer class="footer">
         <p>&copy; 2024 Anissa Vaughn. All Rights Reserved.</p>
     </footer>
